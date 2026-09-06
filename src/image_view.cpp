@@ -15,7 +15,8 @@
 #include "ftxui/dom/node.hpp"         // for Node
 #include "ftxui/dom/requirement.hpp"  // for Requirement
 #include "ftxui/screen/box.hpp"       // for Box
-#include "ftxui/screen/screen.hpp"    // for Pixel, Screen
+#include "ftxui/screen/screen.hpp"    // for Screen
+#include "ftxui/screen/pixel.hpp"			// for Pixel
 #include "ftxui/screen/string.hpp"  // for string_width, Utf8ToGlyphs, to_string
 
 #include "tiv_lib.h"
