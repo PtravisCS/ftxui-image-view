@@ -16,7 +16,7 @@ add_library(ftxui-image-view STATIC
     include/image_view.hpp
     src/image_view.cpp
 )
-target_link_libraries(ftxui-image-view PUBLIC ftxui::component ftxui::dom ftxui::screen tiv)
+target_link_libraries(ftxui-image-view PUBLIC ftxui::component ftxui::dom ftxui::screen tiv pthread)
 
 target_include_directories(ftxui-image-view PUBLIC 
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
